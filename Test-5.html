@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Purchase Request Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body style="background-color: #3881D7;">
+    <h1 class="heading">Purchase Request Form</h1>
+    <div id="Maindiv">
+        <div class="form1">
+            <span class="label"></span><label for="sname">Supplier Name.</label></span>
+            <span class="sname"><input type="text" id="sname" name="sname"></span>
+            <span class="label"><label for="address">Address.</label></span>
+            <span class="address"><textarea id="address" rows="4" placeholder="Enter the Address"></textarea></span>
+            <span class="label"><label for="Email">Email.</label></span>
+            <span class="email"><input type="text" id="Email" name="Email"></span>
+            <span class="label"><label for="Phone">Phone.</label></span>
+            <span class="Phone"><input type="number" id="Phone" name="Phone"></span>
+        </div>
+    </div>
+</body>
+
+
+</html>
+<style>
+    .form1 {
+        margin-top: 80px;
+        display: flex;
+        justify-content: center;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        
+    }
+    .form1 label {
+        color: rgb(63, 63, 63);
+
+
+    }
+    .form1 :focus {
+        outline: transparent;
+    }
+    
+    .sname input {
+        border-color: #3881D7;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        width: 800px;
+        border-radius: 5px;
+        height: 28px;
+        border-style: solid;
+        border-width: 1px;
+        font-size: large;
+        color: #313233;
+        width:calc(76% - 11px);
+        padding: 5px
+               
+    }
+    .address textarea {
+        border-color: #3881D7;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 800px;
+        border-radius: 5px;
+        height: 80px;
+        border-style: solid;
+        border-width: 1px;
+        font-size: large;
+        color: #313233;
+        width:calc(76% - 11px);
+        padding: 5px
+        
+    }
+    .Email input {
+        border-color: #3881D7;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        width: 500px;
+        border-radius: 5px;
+        height: 28px;
+        border-style: solid;
+        border-width: 1px;
+        font-size: large;
+        color: #313233;
+        width:calc(76% - 11px);
+        padding: 5px
+               
+    }
+    
+    .Phone input {
+        border-color: #3881D7;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        width: 200px;
+        border-radius: 5px;
+        height: 28px;
+        border-style: solid;
+        border-width: 1px;
+        font-size: large;
+        color: #313233;   
+        width:calc(76% - 11px);
+        padding: 5px       
+               
+    }
+    .Phone label {
+        float: right;
+
+    }
+</style>
